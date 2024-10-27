@@ -6,7 +6,7 @@
 /*   By: jluiz-de <jluiz-de@student.42lisboa.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:33:35 by jluiz-de          #+#    #+#             */
-/*   Updated: 2024/10/24 15:18:09 by jluiz-de         ###   ########.fr       */
+/*   Updated: 2024/10/27 14:43:12 by jluiz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,13 @@ void	ft_putstr(char *str)
 	int	i;
 
 	i = 0;
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		ft_putchar(str[i]);
 		i++;
 	}
 }
+
 int	main(int argc, char *argv[])
 {
 	int	i;
@@ -40,5 +41,5 @@ int	main(int argc, char *argv[])
 		ft_putchar('\n');
 		i++;
 	}
-	return(0);
+	return (0);
 }

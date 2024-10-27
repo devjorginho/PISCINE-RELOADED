@@ -6,7 +6,7 @@
 /*   By: jluiz-de <jluiz-de@student.42lisboa.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 12:18:59 by jluiz-de          #+#    #+#             */
-/*   Updated: 2024/10/24 12:30:33 by jluiz-de         ###   ########.fr       */
+/*   Updated: 2024/10/27 14:40:05 by jluiz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_iterative_factorial(int nb)
 		return (1);
 	while (f > 1)
 	{
-		nb = nb * ( f - 1 );
+		nb = nb * (f - 1);
 		f--;
 	}
 	return (nb);
